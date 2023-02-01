@@ -1,4 +1,4 @@
-/*GENERALES*/
+// base
 *{
     padding: 0;
     margin: 0;
@@ -6,20 +6,35 @@
 header{
     background-color: #CFCCC9;
 }
-#ir-arriba{
-    border: outset #6b705c 0.5px;
+body{
+    background-image: url(../img/depositphoto-16.jpg);
+    color: #5C604F;
 }
 footer{
     background-color: #CFCCC9;
     color: #5C604F;
 }
-.no-bullet{
-    list-style: none;
-}
 a{
     color: #5C604F;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
+}
+
+// components
+
+
+
+
+
+/*GENERALES*/
+
+
+#ir-arriba{
+    border: outset #6b705c 0.5px;
+}
+
+.no-bullet{
+    list-style: none;
 }
 body div{
     font-family: 'Poppins', sans-serif;
@@ -30,10 +45,7 @@ footer div{
 body main ul li{
     font-family: 'Poppins', sans-serif;
 }
-body{
-    background-image: url(../img/depositphoto-16.jpg);
-    color: #5C604F;
-}
+
 .frases_index{
     text-align: center;
     font-family: 'Arima', cursive;
@@ -41,6 +53,19 @@ body{
     margin-bottom: 2%;
     margin-right: 5%;
 }
+.txt-index1{
+    display: flex;
+    flex-direction: column;
+}
+/*no funciona*/
+.parrafo_index_p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-bottom: 2%;
+    margin-right: 5%;
+}
+
 .img-index{
     margin-bottom: 3%;
 }
