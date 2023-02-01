@@ -1,0 +1,248 @@
+/*GENERALES*/
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #CFCCC9;
+}
+#ir-arriba{
+    border: outset #6b705c 0.5px;
+}
+footer{
+    background-color: #CFCCC9;
+    color: #5C604F;
+}
+.no-bullet{
+    list-style: none;
+}
+a{
+    color: #5C604F;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+body div{
+    font-family: 'Poppins', sans-serif;
+}
+footer div{
+    font-family: 'Poppins', sans-serif;
+}
+body main ul li{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(../img/depositphoto-16.jpg);
+    color: #5C604F;
+}
+.frases_index{
+    text-align: center;
+    font-family: 'Arima', cursive;
+    font-weight: 400;
+    margin-bottom: 2%;
+    margin-right: 5%;
+}
+.img-index{
+    margin-bottom: 3%;
+}
+.img-txt-index1{
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.fotoindex2{
+    margin-right: 5%;
+}
+.frases-contacto{
+    text-align: center;
+    font-family: 'Arima', cursive;
+    font-weight: 400;
+    font-size: larger;
+}
+.titulos{
+    font-family: 'Arima', cursive;
+    font-weight: 400;
+    text-align: center;
+    margin: 20px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.img-bordered{
+    border-radius: 3%;
+}
+.arriba-red{
+    border-radius: 10%;
+    position: relative;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.wapp-fijo{
+    position: relative;
+    position: fixed;
+    bottom: 65px;
+    right: 23px;
+}
+.socalo-peque{
+    font-size: small;
+}
+.bloque_frases{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+body header nav ul li{
+    padding: 4px;
+    margin: 3px;
+}
+.nav-flex{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+}
+body div p{
+    margin: 20px;
+}
+.foto-dueñas2{
+    margin-left: 4%;
+}
+.fotos-pestañas{
+    border-radius: 3%;
+    border: outset #6b705c 0.5px;
+    margin-left: 20px;
+}
+body main div ul h4{
+    margin: 20px;
+}
+body main div ul ul{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+body main div ul li{
+    margin: 20px;
+}
+body main ul{
+    margin: 20px;
+}
+body main div h3{
+    margin: 20px;
+}
+.cont-pestañas{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-flex{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;   
+}
+.formulario-mapa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 3%;
+    align-items: center;
+}
+.img-fachada{
+    width: 100%;
+    margin-bottom: 3%;
+}
+.fachada-p-contactos{
+    margin-bottom: 3%;
+}
+.img-p-nosotras{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.parrafo-nosotras{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    margin-left: 4%;
+}
+.img-footer{
+    width: 15%;
+}
+.footer-centro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3%;
+}
+.card-flex1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+.card-flex2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+.NavBar{
+    display: flex;
+    justify-content: space-around;
+}
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space;
+}
+.cejas-centrado{
+    display: flex; 
+    justify-content: center;
+}
+.list-group-item{
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+/*animaciones*/
+
+.nav-link:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+/*responsive*/
+
+@media screen and (max-width: 992px) {
+    .img-p-nosotras{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    .foto-dueñas{
+        width: auto;
+        margin: 0 auto;
+    }
+    .foto-dueñas2{
+        width: auto;
+        margin: 0 auto;
+        margin-bottom: 5%;
+    }
+    .img-p-nosotras{
+        margin-bottom: 0;
+    }
+    .parrafo-nosotras{
+        width: auto;
+    }
+    .formulario-mapa{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    .img-footer{
+        width: 30%;
+    }
+    
+}
