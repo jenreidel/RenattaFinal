@@ -46,6 +46,37 @@ footer{
 .img-footer{
     width: 15%;
 }
+.no-bullet{
+    list-style: none;
+}
+.titulos{
+    font-family: 'Arima', cursive;
+    font-weight: 400;
+    text-align: center;
+    margin: 20px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.img-bordered{
+    border-radius: 3%;
+}
+.arriba-red{
+    border-radius: 10%;
+    position: relative;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.wapp-fijo{
+    position: relative;
+    position: fixed;
+    bottom: 65px;
+    right: 23px;
+}
+.socalo-peque{
+    font-size: small;
+}
+
 
 
 // components
@@ -59,9 +90,6 @@ footer{
 
 
 
-.no-bullet{
-    list-style: none;
-}
 
 
 
@@ -105,33 +133,7 @@ footer{
     font-weight: 400;
     font-size: larger;
 }
-.titulos{
-    font-family: 'Arima', cursive;
-    font-weight: 400;
-    text-align: center;
-    margin: 20px;
-    margin-top: 4%;
-    margin-bottom: 4%;
-}
-.img-bordered{
-    border-radius: 3%;
-}
-.arriba-red{
-    border-radius: 10%;
-    position: relative;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-}
-.wapp-fijo{
-    position: relative;
-    position: fixed;
-    bottom: 65px;
-    right: 23px;
-}
-.socalo-peque{
-    font-size: small;
-}
+
 .bloque_frases{
     margin-top: 5%;
     margin-bottom: 5%;
