@@ -5,7 +5,7 @@
 a{
     color: $colorletras;
     text-decoration: none;
-    font-family: $font-titutos;
+    font-family: $font-body;
 }
 body{
     background-image: url(../img/depositphoto-16.jpg);
@@ -17,7 +17,7 @@ body{
     main ul{
         margin: 20px;
         li{
-            font-family: $font-titutos;
+            font-family: $font-body;
         }
     }
     main div ul{
@@ -150,13 +150,18 @@ body{
 .flex-cosm{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    margin: 2%;
 }
 .img-pie-centro{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+}
+.img-est-centro{
+    display: flex;
     justify-content: center;
     img{
-        margin: 0 auto;
+        width: 25%;
     }
 }
 
@@ -171,6 +176,7 @@ body{
 /*responsive*/
 
 @media screen and (max-width: 992px) {
+
     .img-p-nosotras{
         display: grid;
         grid-template-columns: auto;
@@ -200,4 +206,33 @@ body{
     .img-footer{
         width: 30%;
     }
+    .card-flex1{
+        flex-wrap: wrap;
+        margin: 2%;
+        div{
+            margin-bottom: 2%;
+            margin-top: 2%;
+        }
+    }
+    .card-flex2{
+        flex-wrap: wrap;
+        div{
+            margin-bottom: 2%;
+            margin-top: 2%;
+        }
+    }
+    .flex-cosm{
+        flex-wrap: wrap;
+        justify-content: center;
+        div{
+            margin-bottom: 2%;
+            margin-top: 2%;
+        }
+    }
+    .img-est-centro{
+        img{
+            width: 50%;
+        }
+    }
+    
 }

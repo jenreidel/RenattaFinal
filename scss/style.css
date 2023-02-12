@@ -4,18 +4,6 @@
   margin: 0;
 }
 
-header {
-  background-color: #CFCCC9;
-}
-header .container-fluid {
-  display: flex;
-  flex-direction: row;
-  justify-content: space;
-}
-header .container-fluid div #ir-arriba {
-  border: outset #6b705c 0.5px;
-}
-
 a {
   color: #5C604F;
   text-decoration: none;
@@ -26,42 +14,37 @@ body {
   background-image: url(../img/depositphoto-16.jpg);
   color: #5C604F;
 }
-body body div {
+body header nav ul li {
+  padding: 4px;
+  margin: 3px;
+}
+body main ul {
+  margin: 20px;
+}
+body main ul li {
   font-family: "Poppins", sans-serif;
 }
-body body main ul li {
-  font-family: "Poppins", sans-serif;
+body main div ul h4 {
+  margin: 20px;
 }
-
-footer {
-  background-color: #CFCCC9;
-  color: #5C604F;
+body main div ul ul {
+  margin-left: 40px;
+  margin-bottom: 20px;
 }
-footer footer div {
-  font-family: "Poppins", sans-serif;
+body main div ul li {
+  margin: 20px;
 }
-
-.footer-centro {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 3%;
+body main div h3 {
+  margin: 20px;
 }
-
-.img-footer {
-  width: 15%;
-}
-
-.no-bullet {
-  list-style: none;
+body div p {
+  margin: 20px;
 }
 
 .titulos {
-  font-family: "Arima", cursive;
+  font-family: "Arima";
   font-weight: 400;
   text-align: center;
-  margin: 20px;
   margin-top: 4%;
   margin-bottom: 4%;
 }
@@ -70,29 +53,10 @@ footer footer div {
   border-radius: 3%;
 }
 
-.arriba-red {
-  border-radius: 10%;
-  position: relative;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-}
-
-.wapp-fijo {
-  position: relative;
-  position: fixed;
-  bottom: 65px;
-  right: 23px;
-}
-
-.socalo-peque {
-  font-size: small;
-}
-
 /*GENERALES*/
 .frases_index {
   text-align: center;
-  font-family: "Arima", cursive;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   margin-bottom: 2%;
   margin-right: 5%;
@@ -101,15 +65,6 @@ footer footer div {
 .txt-index1 {
   display: flex;
   flex-direction: column;
-}
-
-/*no funciona*/
-.parrafo_index_p {
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  margin-bottom: 2%;
-  margin-right: 5%;
 }
 
 .img-index {
@@ -130,7 +85,7 @@ footer footer div {
 
 .frases-contacto {
   text-align: center;
-  font-family: "Arima", cursive;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: larger;
 }
@@ -140,11 +95,6 @@ footer footer div {
   margin-bottom: 5%;
 }
 
-body header nav ul li {
-  padding: 4px;
-  margin: 3px;
-}
-
 .nav-flex {
   display: flex;
   flex-direction: row;
@@ -152,44 +102,8 @@ body header nav ul li {
   align-items: center;
 }
 
-body div p {
-  margin: 20px;
-}
-
 .foto-dueñas2 {
   margin-left: 4%;
-}
-
-.fotos-pestañas {
-  border-radius: 3%;
-  border: outset #6b705c 0.5px;
-  margin-left: 20px;
-}
-
-body main div ul h4 {
-  margin: 20px;
-}
-
-body main div ul ul {
-  margin-left: 40px;
-  margin-bottom: 20px;
-}
-
-body main div ul li {
-  margin: 20px;
-}
-
-body main ul {
-  margin: 20px;
-}
-
-body main div h3 {
-  margin: 20px;
-}
-
-.cont-pestañas {
-  display: flex;
-  justify-content: space-evenly;
 }
 
 .formulario-mapa {
@@ -238,11 +152,6 @@ body main div h3 {
   margin-bottom: 5%;
 }
 
-.NavBar {
-  display: flex;
-  justify-content: space-around;
-}
-
 .cejas-centrado {
   display: flex;
   justify-content: center;
@@ -253,6 +162,26 @@ body main div h3 {
   justify-items: center;
   text-align: center;
   justify-content: center;
+}
+
+.flex-cosm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 2%;
+}
+
+.img-pie-centro {
+  display: flex;
+  justify-content: center;
+}
+
+.img-est-centro {
+  display: flex;
+  justify-content: center;
+}
+.img-est-centro img {
+  width: 25%;
 }
 
 /*animaciones*/
@@ -273,7 +202,7 @@ body main div h3 {
     margin: 0 auto;
   }
   .foto-dueñas2 {
-    width: auto;
+    width: 80%;
     margin: 0 auto;
     margin-bottom: 5%;
   }
@@ -281,7 +210,8 @@ body main div h3 {
     margin-bottom: 0;
   }
   .parrafo-nosotras {
-    width: auto;
+    width: 90%;
+    margin-left: none;
   }
   .formulario-mapa {
     display: grid;
@@ -291,4 +221,82 @@ body main div h3 {
   .img-footer {
     width: 30%;
   }
+  .card-flex1 {
+    flex-wrap: wrap;
+    margin: 2%;
+  }
+  .card-flex1 div {
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
+  .card-flex2 {
+    flex-wrap: wrap;
+  }
+  .card-flex2 div {
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
+  .flex-cosm {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .flex-cosm div {
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
+  .img-est-centro img {
+    width: 50%;
+  }
+}
+footer {
+  background-color: #CFCCC9;
+  color: #5C604F;
+}
+footer div {
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-centro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3%;
+}
+.footer-centro .img-footer {
+  width: 15%;
+}
+
+.arriba-red {
+  border-radius: 10%;
+  position: relative;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.wapp-fijo {
+  position: relative;
+  position: fixed;
+  bottom: 65px;
+  right: 23px;
+}
+
+.no-bullet {
+  list-style: none;
+}
+
+.socalo-peque {
+  font-size: small;
+}
+
+header {
+  background-color: #CFCCC9;
+}
+header .container-fluid {
+  display: flex;
+  flex-direction: row;
+}
+header .container-fluid div #ir-arriba {
+  border: outset #6b705c 0.5px;
 }/*# sourceMappingURL=style.css.map */
