@@ -154,11 +154,10 @@ body{
     text-align: center;
     justify-content: center;
 }
-.faciales{
+.grid-cosm{
     display: grid;
-    grid-template-columns: 3;
-    grid-template-rows: 3;
-    grid-template-areas: ;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
 }
 
 /*animaciones*/
@@ -181,7 +180,7 @@ body{
         margin: 0 auto;
     }
     .foto-dueñas2{
-        width: auto;
+        width: 80%;
         margin: 0 auto;
         margin-bottom: 5%;
     }
@@ -199,8 +198,5 @@ body{
     }
     .img-footer{
         width: 30%;
-    }
-    .card-flex1{
-        flex-wrap: wrap;
     }
 }
