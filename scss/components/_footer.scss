@@ -1,0 +1,36 @@
+footer{
+    background-color: $gb-hed-foot;
+    color: $colorletras;
+    footer div{
+        font-family: $font-titutos;
+    }
+}
+.footer-centro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3%;
+    .img-footer{
+        width: 15%;
+    }
+}
+.arriba-red{
+    border-radius: 10%;
+    position: relative;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.wapp-fijo{
+    position: relative;
+    position: fixed;
+    bottom: 65px;
+    right: 23px;
+}
+.no-bullet{
+    list-style: none;
+}
+.socalo-peque{
+    font-size: small;
+}

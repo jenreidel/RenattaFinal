@@ -1,0 +1,11 @@
+header{
+    background-color: $gb-hed-foot;
+    .container-fluid{
+        display: flex;
+        flex-direction: row;
+        justify-content: space;
+        div #ir-arriba{
+            border: outset #6b705c 0.5px;
+        }
+    }
+}
