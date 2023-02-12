@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: $colorletras;
+    text-decoration: none;
+    font-family: $font-titutos;
+}
+body{
+    background-image: url(../img/depositphoto-16.jpg);
+    color: $colorletras;
+    header nav ul li{
+        padding: 4px;
+        margin: 3px;
+    }
+    main ul{
+        margin: 20px;
+        li{
+            font-family: $font-titutos;
+        }
+    }
+    main div ul{
+        h4{
+            margin: 20px;
+        }
+        ul{
+            margin-left: 40px;
+            margin-bottom: 20px;
+        }
+        li{
+            margin: 20px;
+        }
+    }
+    main div h3{
+        margin: 20px;
+    }
+    div p{
+        margin: 20px;
+    }
+}
+.titulos{
+    font-family: $font-titutos;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.img-bordered{
+    border-radius: 3%;
+}
+
+
+/*GENERALES*/
+
+.frases_index{
+    text-align: center;
+    font-family: $font-body;
+    font-weight: 400;
+    margin-bottom: 2%;
+    margin-right: 5%;
+}
+.txt-index1{
+    display: flex;
+    flex-direction: column;
+}
+.img-index{
+    margin-bottom: 3%;
+}
+.img-txt-index1{
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.fotoindex2{
+    margin-right: 5%;
+}
+.frases-contacto{
+    text-align: center;
+    font-family: $font-body;
+    font-weight: 400;
+    font-size: larger;
+}
+
+.bloque_frases{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.nav-flex{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+}
+.foto-dueñas2{
+    margin-left: 4%;
+}
+.formulario-mapa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 3%;
+    align-items: center;
+}
+.img-fachada{
+    width: 100%;
+    margin-bottom: 3%;
+}
+.fachada-p-contactos{
+    margin-bottom: 3%;
+}
+.img-p-nosotras{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.parrafo-nosotras{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    margin-left: 4%;
+}
+
+.card-flex1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+.card-flex2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+.cejas-centrado{
+    display: flex; 
+    justify-content: center;
+}
+.list-group-item{
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.flex-cosm{
+    display: flex;
+    flex-direction: row;
+}
+.img-pie-centro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    img{
+        margin: 0 auto;
+    }
+}
+
+
+/*animaciones*/
+
+.nav-link:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+/*responsive*/
+
+@media screen and (max-width: 992px) {
+    .img-p-nosotras{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    .foto-dueñas{
+        width: auto;
+        margin: 0 auto;
+    }
+    .foto-dueñas2{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 5%;
+    }
+    .img-p-nosotras{
+        margin-bottom: 0;
+    }
+    .parrafo-nosotras{
+        width: 90%;
+        margin-left: none;
+    }
+    .formulario-mapa{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    .img-footer{
+        width: 30%;
+    }
+}
