@@ -76,18 +76,7 @@ body div p {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-}
-
-.fotoindex2 {
-  margin-right: 5%;
-}
-
-.frases-contacto {
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: larger;
+  justify-content: space-evenly;
 }
 
 .bloque_frases {
@@ -106,24 +95,7 @@ body div p {
   margin-left: 4%;
 }
 
-.formulario-mapa {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-bottom: 3%;
-  align-items: center;
-}
-
-.img-fachada {
-  width: 100%;
-  margin-bottom: 3%;
-}
-
-.fachada-p-contactos {
-  margin-bottom: 3%;
-}
-
-.img-p-nosotras {
+x.img-p-nosotras {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -184,6 +156,56 @@ body div p {
   width: 25%;
 }
 
+.img-pest {
+  display: flex;
+  justify-content: center;
+}
+.img-pest img {
+  margin: 0 auto;
+}
+
+.formulario-mapa {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 3%;
+  align-items: center;
+}
+
+.img-fachada {
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+.fachada-p-contactos {
+  margin-bottom: 3%;
+}
+
+#textarea {
+  resize: none;
+}
+
+.frases-contacto {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: larger;
+}
+
+.div-floating {
+  margin-bottom: 2%;
+}
+
+.btn-personal {
+  background-color: #CFCCC9;
+  color: #5C604F;
+  margin-top: 5%;
+}
+
+.mensaje {
+  resize: none;
+}
+
 /*animaciones*/
 .nav-link:hover {
   color: white;
@@ -192,6 +214,12 @@ body div p {
 
 /*responsive*/
 @media screen and (max-width: 992px) {
+  .img-txt-index1 {
+    flex-direction: column;
+  }
+  .img-txt-index1 img {
+    width: 60%;
+  }
   .img-p-nosotras {
     display: grid;
     grid-template-columns: auto;
