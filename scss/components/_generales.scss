@@ -105,13 +105,10 @@ body{
     font-size: larger;
     font-family: $font-titutos;
     text-align: center;
+    margin-bottom: 2%;
 }
-.escul-p-1{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly;
-    margin-bottom: 5%;
-    align-items: center;
+.precios-centro{
+    text-align: center;
 }
 .escul-p-2{
     display: flex;
