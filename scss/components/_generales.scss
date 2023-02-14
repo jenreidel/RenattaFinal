@@ -85,6 +85,7 @@ body{
     height: 100%;
     align-items: center;
 }
+// nosotras
 .foto-dueñas2{
     margin-left: 4%;
 }
@@ -101,11 +102,12 @@ body{
     justify-content: center;
     margin-left: 4%;
 }
+// manos y pies
 .parra-esculp{
     font-size: larger;
     font-family: $font-titutos;
     text-align: center;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
 }
 .precios-centro{
     text-align: center;
@@ -124,6 +126,44 @@ body{
     margin-bottom: 5%;
     align-items: center;
 }
+.kapp-centro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    align-items: center;
+}
+.pedi-centro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    align-items: center;
+    div{
+        width: 40%;
+    }
+}
+.pedi-centro2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    align-items: center;
+    div{
+        width: 40%;
+    }
+}
+.rest-centro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    align-items: center;
+    div{
+        width: 40%;
+    }
+}
+// estetica
 .card-flex1{
     display: flex;
     flex-direction: row;
@@ -152,15 +192,20 @@ body{
     justify-content: space-evenly;
     margin: 2%;
 }
-.img-pie-centro{
-    display: flex;
-    justify-content: center;
-}
 .img-est-centro{
     display: flex;
     justify-content: center;
     img{
         width: 25%;
+    }
+}
+.pest-centro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5%;
+    img{
+        width: 30%;
     }
 }
 .img-pest{
@@ -276,8 +321,5 @@ body{
             width: 50%;
         }
     }
-    
-}
-@media screen and (min-width: 992px) {
     
 }
