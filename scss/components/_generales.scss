@@ -101,6 +101,32 @@ body{
     justify-content: center;
     margin-left: 4%;
 }
+.parra-esculp{
+    font-size: larger;
+    font-family: $font-titutos;
+    text-align: center;
+}
+.escul-p-1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin-bottom: 5%;
+    align-items: center;
+}
+.escul-p-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    align-items: center;
+}
+.mani-trad-centro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    align-items: center;
+}
 .card-flex1{
     display: flex;
     flex-direction: row;
@@ -161,9 +187,6 @@ body{
 }
 .fachada-p-contactos{
     margin-bottom: 3%;
-}
-#textarea{
-    resize: none;
 }
 .frases-contacto{
     text-align: center;
@@ -256,5 +279,8 @@ body{
             width: 50%;
         }
     }
+    
+}
+@media screen and (min-width: 992px) {
     
 }
