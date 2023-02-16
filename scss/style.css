@@ -344,6 +344,57 @@ body div p {
   .img-est-centro img {
     width: 50%;
   }
+  .escul-p-2 {
+    flex-wrap: wrap;
+  }
+  .escul-p-2 img {
+    margin-bottom: 10%;
+  }
+  .mani-trad-centro {
+    flex-wrap: wrap-reverse;
+  }
+  .mani-trad-centro img {
+    margin-bottom: 10%;
+  }
+  .kapp-centro {
+    flex-wrap: wrap;
+  }
+  .kapp-centro img {
+    margin-bottom: 10%;
+  }
+  .pedi-centro {
+    flex-direction: column;
+  }
+  .pedi-centro div {
+    width: 70%;
+  }
+  .pedi-centro img {
+    margin-bottom: 10%;
+  }
+  .pedi-centro2 {
+    flex-direction: column-reverse;
+  }
+  .pedi-centro2 .precios-centro {
+    width: 90%;
+  }
+  .pedi-centro2 img {
+    margin-bottom: 10%;
+  }
+  .rest-centro {
+    flex-direction: column;
+  }
+  .rest-centro .precios-centro {
+    width: 70%;
+  }
+  .rest-centro img {
+    margin-bottom: 10%;
+  }
+  .pest-centro img {
+    width: 80%;
+  }
+  .img-est-centro img {
+    width: 80%;
+  }
 }
 footer {
   background-color: #CFCCC9;

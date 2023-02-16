@@ -321,5 +321,59 @@ body{
             width: 50%;
         }
     }
-    
+    .escul-p-2{
+        flex-wrap: wrap;
+        img{
+            margin-bottom: 10%;
+        }
+    }
+    .mani-trad-centro{
+        flex-wrap: wrap-reverse;
+        img{
+            margin-bottom: 10%;
+        }
+    }
+    .kapp-centro{
+        flex-wrap: wrap;
+        img{
+            margin-bottom: 10%;
+        }
+    }
+    .pedi-centro{
+        flex-direction: column;
+        div{
+            width: 70%;
+        }
+        img{
+            margin-bottom: 10%;
+        }
+    }
+    .pedi-centro2{
+        flex-direction: column-reverse;
+        .precios-centro{
+            width: 90%;
+        }
+        img{
+            margin-bottom: 10%;
+        }
+    }
+    .rest-centro{
+        flex-direction: column;
+        .precios-centro{
+            width: 70%;
+        }
+        img{
+            margin-bottom: 10%;
+        }
+    }
+    .pest-centro{
+        img{
+            width: 80%;
+        }
+    }
+    .img-est-centro{
+        img{
+            width: 80%;
+        }
+    }
 }
